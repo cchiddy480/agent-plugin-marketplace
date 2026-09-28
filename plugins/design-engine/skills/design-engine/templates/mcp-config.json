@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "figma": {
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "figma-local-fallback": {
+      "command": "npx",
+      "args": ["-y", "figma-developer-mcp", "--stdio"],
+      "env": {
+        "FIGMA_API_KEY": "YOUR_FIGMA_PERSONAL_ACCESS_TOKEN"
+      }
+    },
+    "v0": {
+      "command": "npx",
+      "args": ["mcp-remote", "https://v0.app/api/mcp"]
+    },
+    "browser-cdp": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-puppeteer"]
+    }
+  }
+}

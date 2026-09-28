@@ -1,0 +1,11 @@
+{
+  "name": "design-engine",
+  "displayName": "Design Engine",
+  "version": "1.0.1",
+  "description": "Anti-slop UI skill, DESIGN.md tokens, Iris/Forge/Tester loop, and Figma/v0/CDP MCP hooks for Claude Code.",
+  "author": {
+    "name": "Design Engine"
+  },
+  "license": "MIT",
+  "keywords": ["design", "ui", "ux", "frontend", "anti-slop", "tokens"]
+}

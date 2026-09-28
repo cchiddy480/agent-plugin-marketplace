@@ -1,0 +1,29 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "milo-agent-marketplace",
+  "displayName": "Milo Agent Plugin Marketplace",
+  "description": "Curated plugins, tools, and skills for Claude Code, OpenAI Codex CLI, and Hermes Agent.",
+  "owner": {
+    "name": "Calum & Milo",
+    "email": "calum@milo.local"
+  },
+  "metadata": {
+    "description": "Custom agent plugin marketplace for design, engineering, and automation tools.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "design-engine",
+      "displayName": "Design Engine",
+      "description": "Anti-slop UI design system, DESIGN.md token specs, Iris triad workflow, and Figma/v0/CDP MCP hooks.",
+      "author": {
+        "name": "Design Engine"
+      },
+      "source": "./plugins/design-engine",
+      "version": "1.0.1",
+      "category": "software-development",
+      "keywords": ["design", "ui", "ux", "frontend", "anti-slop", "tokens"]
+    }
+  ]
+}
