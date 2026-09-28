@@ -15,8 +15,8 @@ A curated plugin registry for AI coding agents (**Claude Code**, **OpenAI Codex 
 ## ⚡ How to Add this Marketplace to Claude Code
 
 ```bash
-# Add this marketplace to Claude Code
-claude plugin marketplace add /home/open-claw/agent-plugin-marketplace
+# Add this marketplace to Claude Code directly from GitHub
+claude plugin marketplace add cchiddy480/agent-plugin-marketplace
 
 # Install the design-engine plugin
 claude plugin install design-engine@milo-agent-marketplace
@@ -29,6 +29,10 @@ claude plugin install design-engine@milo-agent-marketplace
 Each plugin includes its own universal `install.py`:
 
 ```bash
+# Clone the repository
+git clone https://github.com/cchiddy480/agent-plugin-marketplace.git
+cd agent-plugin-marketplace
+
 # Run standalone installer for design-engine
 python3 plugins/design-engine/install.py
 ```
@@ -42,6 +46,8 @@ agent-plugin-marketplace/
 ├── marketplace.json                # Plugin registry manifest
 ├── .claude-plugins/
 │   └── marketplace.json            # Claude Code plugin registry compatibility link
+├── .claude-plugin/
+│   └── marketplace.json            # Claude Code CLI registry manifest
 ├── README.md                       # Marketplace documentation
 └── plugins/
     └── design-engine/              # Standalone Design Engine plugin package
