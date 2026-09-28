@@ -1,6 +1,6 @@
-# 🛒 Milo Agent Plugin Marketplace
+# 🛠️ Agent Craft Marketplace
 
-A curated plugin registry for AI coding agents (**Claude Code**, **OpenAI Codex CLI**, **Hermes Agent**, **Cursor**, **Windsurf**).
+A curated plugin & skill registry for AI coding agents (**Claude Code**, **OpenAI Codex CLI**, **Hermes Agent**, **Cursor**, **Windsurf**).
 
 ---
 
@@ -16,10 +16,10 @@ A curated plugin registry for AI coding agents (**Claude Code**, **OpenAI Codex 
 
 ```bash
 # Add this marketplace to Claude Code directly from GitHub
-claude plugin marketplace add cchiddy480/agent-plugin-marketplace
+claude plugin marketplace add cchiddy480/agent-craft
 
 # Install the design-engine plugin
-claude plugin install design-engine@milo-agent-marketplace
+claude plugin install design-engine@agent-craft
 ```
 
 ---
@@ -30,8 +30,8 @@ Each plugin includes its own universal `install.py`:
 
 ```bash
 # Clone the repository
-git clone https://github.com/cchiddy480/agent-plugin-marketplace.git
-cd agent-plugin-marketplace
+git clone https://github.com/cchiddy480/agent-craft.git
+cd agent-craft
 
 # Run standalone installer for design-engine
 python3 plugins/design-engine/install.py
@@ -42,7 +42,7 @@ python3 plugins/design-engine/install.py
 ## 📁 Repository Structure
 
 ```
-agent-plugin-marketplace/
+agent-craft/
 ├── marketplace.json                # Plugin registry manifest
 ├── .claude-plugins/
 │   └── marketplace.json            # Claude Code plugin registry compatibility link

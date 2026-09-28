@@ -1,14 +1,14 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "milo-agent-marketplace",
-  "displayName": "Milo Agent Plugin Marketplace",
+  "name": "agent-craft",
+  "displayName": "Agent Craft Marketplace",
   "description": "Curated plugins, tools, and skills for Claude Code, OpenAI Codex CLI, and Hermes Agent.",
   "owner": {
     "name": "Calum & Milo",
     "email": "calum@milo.local"
   },
   "metadata": {
-    "description": "Custom agent plugin marketplace for design, engineering, and automation tools.",
+    "description": "Independent agent plugin marketplace for design, engineering, and automation tools.",
     "version": "1.0.0",
     "pluginRoot": "./plugins"
   },
